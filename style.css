@@ -1,0 +1,230 @@
+/*\/=====/ Importação as fontes \=====/\*/
+
+@import url('https://fonts.cdnfonts.com/css/aliment-personal-use');
+@import url('https://fonts.cdnfonts.com/css/candela');
+@import url('https://fonts.cdnfonts.com/css/comfortaa');
+
+@import url('http://fonts.cdnfonts.com/css/alien-league-2');
+
+/*\/=====/ Formatações gerais \=====/\*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Candela Bold', Verdana, sans-serif;
+	box-shadow: border-box;
+}
+
+body {
+	background: white url('imagens/backgrounds/background.svg');
+}
+
+.clear {
+	clear: both;
+}
+
+/*\/=====/ Barra de rolagem \=====/\*/
+
+:-webkit-scrollbar-track {
+    background-color: #1124D3;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #2275C2;
+
+}
+::-webkit-scrollbar-thumb {
+    background: #B2C7B8;
+    border-radius: 8px;
+    margin: 1px;
+}
+
+
+
+/*\/=====/ Formatação do cabeçalho \=====/\*/
+
+#menu-area {
+	border-bottom: 2px solid #930305;
+	background: #F40F13 url('imagens/backgrounds/background-nav.svg');
+	color: white;
+	height: 90px;
+	text-align: center;
+}
+
+#menu-area header h1 {
+	font-family: 'Aliment PERSONAL USE', Verdana, sans-serif;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.exception {
+	margin-left: 10px;
+	border: none;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Candela Bold', Verdana, sans-serif;
+	font-weight: bold;
+	color: white;
+
+	padding: 8px 8px;
+	margin: auto 10px;
+
+}
+
+nav a:hover {
+	background: #F50A0E;
+	color: white;
+}
+
+/*\/=====/ Formatação do layout \=====/\*/
+
+#container {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 1em;
+
+	max-width: 820px !important;
+	margin: 0px auto;
+	margin-top: 15px;
+	padding: 15px;                                           
+}
+
+
+#container h1 {
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	padding: 5px;
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+#container p {
+	margin: 10px;
+	padding: 10px;
+}
+
+.home-cards {
+	margin-bottom: 24px;
+  	padding: 10px;
+  	border-radius: 25px;
+	border: 1px solid grey;
+  	background-color: white;
+  	display: flex;
+  	justify-content: space-between;
+  	float: left;
+}
+
+/*---- Categorias ----*/
+
+#categories {
+	max-width: 98%;
+	margin: 30px 8px;
+  	padding: 10px;
+  	border-radius: 25px;
+	border: 1px solid grey;
+  	background-color: white;
+  	justify-content: space-between;
+}
+
+#categories ul {
+	list-style: none;
+	margin: 5px;
+	padding: 10px;
+	display: inline-block;
+	border-right: 1px solid #7C7C7C;
+}
+
+#categories li {
+	text-align: center;
+	padding: 15px;
+	margin: 5px;
+	margin-bottom: 8px;
+	border: 1px solid lightgrey;
+	border-radius: 16px;
+}
+
+#categories li button {
+	border-radius: 20px;
+  	border: none;
+  	outline: 0;
+  	color: black;
+  	background: transparent;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 100%;
+  	font-size: 16px;
+
+}
+
+#categories li:hover {
+	text-decoration: none;
+	box-shadow: 1px 1px 8px 1px #D8DADB;
+	background-color: #CFDCE2;
+	transition: 0.3s;
+	color: white;
+	cursor: pointer;
+
+}
+
+
+/*\/=====/ Formatação dos cards \=====/\*/
+
+.card {
+  font-family: 'Comfortaa', sans-serif;
+  text-align: center;
+  
+  border-radius: 20px;
+  border: 1px solid #BFBFBF;
+  box-shadow: 2px 2px 5px 2px #aaaaaa;
+  max-width: 300px;
+  padding: 5px;
+  margin: 10px;
+  float: left;
+}
+
+.card:hover {
+	box-shadow: 4px 4px 5px 5px #aaaaaa;
+	transition: 0.4s;
+}
+
+.card button {
+	border-radius: 20px;
+  	border: none;
+  	outline: 0;
+  	padding: 12px;
+  	color: white;
+  	background: rgba(233, 26, 11, 1);
+  	text-align: center;
+  	cursor: pointer;
+  	width: 100%;
+  	font-size: 18px;
+}
+
+.card button:hover {
+	opacity: 0.4;
+	transition: 0.3s;
+	color: white;
+	border: #930305;
+}
+
+.card img {
+	border-radius: 20px;
+}
+
+.preco {
+	color: #696E6A;
+	font-size: 20px;
+}
+
+/*\/=====/ Formatação do footer \=====/\*/
+
+#footer {
+	text-align: center;
+	padding: 5px;
+	margin-top: 5px;
+	color: white;
+	background: #ABB4AD url('imagens/backgrounds/footer-background.svg');
+}
